@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-basic-informational-site",
+  "version": "1.0.0",
+  "description": "A simple informational site using Node.js",
+  "homepage": "https://github.com/rewthex/nodejs-basic-informational-site#readme",
+  "bugs": {
+    "url": "https://github.com/rewthex/nodejs-basic-informational-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewthex/nodejs-basic-informational-site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}
