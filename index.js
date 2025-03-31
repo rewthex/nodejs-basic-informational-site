@@ -31,6 +31,7 @@ const server = createServer(async (req, res) => {
     res.writeHead(200, { "Content-Type": contentType });
     res.end(data, "utf8");
   } catch (error) {
+    const data = await fs.readFile(path.join(__dirname, "public", "404.html"));
     res.writeHead(404, { "Content-Type": "text/html" });
     res.end(data, "utf8");
   }
